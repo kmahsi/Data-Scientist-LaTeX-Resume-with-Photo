@@ -226,14 +226,7 @@
               $}
             & \cvsite\\}
             %& \href{http://\cvsite}{\cvsite} \\}
-      \ifthenelse{\equal{\cvwebsite}{}}{}{
-            {$
-              \begin{array}{l}
-              \hspace{-2.5mm} \huge \textnormal{\textcolor{test}{\faInternetExplorer}}
-              \end{array}
-              $}
-            % fo
-            & \href{https://\cvwebsite}{\cvwebsite} \\}
+      
       \ifthenelse{\equal{\cvmail}{}}{}{
             {$
               \begin{array}{l}
@@ -247,15 +240,9 @@
               \begin{array}{l}
               \hspace{-3.0mm} \huge \textnormal{\textcolor{linkedin}{\faLinkedinSquare}}
               \end{array}
-              $} & \href{https://www.linkedin.com/in/\cvlinkedin/}{\cvlinkedin} \\
+              $} & \href{https://www.linkedin.com/in/kamran-hosseini-7a1752140/}{\cvlinkedin} \\
             }
-        \ifthenelse{\equal{\cvgithub}{}}{}{
-		{$
-		\begin{array}{l}
-		\hspace{-3.0mm} \huge \textnormal{\faGithub}
-		\end{array}
-		$} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
-		}   
+        
     \end{tabular}
     
     
